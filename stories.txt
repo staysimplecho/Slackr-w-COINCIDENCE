@@ -1,0 +1,43 @@
+Epic1: Admins of the workspace - Administrate the workspace
+1. As an admin, I want to promote workspace Admins from users so that they can help me manage the workspace.
+
+Epic2: General Accessibility
+1. As a user, I want to be able to register with email so that I can have my private account associated with my email address.
+2. As a user, I want to login with my credentials so that I can securely access my personal account.
+3. As a user, I want to be able to log out after login so that I can switch to another account or quit the website securely.
+4. As a user, I want to be able to reset my password so that I can recover it once I forget.
+5. As a user, I want to view a list of all the channels in which I joined so that I can keep track of their updates.
+6. As a user, I want to be able to browse all the channels by names or filters so that I can search for and preview a specific channel.
+7. As a user, I want to be able to create a channel so that I can have a communication platform for a specific group of people. 
+8. As a user, I want to be able to join a channel so that I can receive information from a channel that I am interested in.
+9. As a user, I want to be able to join multiple channels so that I can receive information from different channels.
+10. As a user, I want to view other users' profiles so that I can learn more about them.
+11. As a user, I want to be able to edit my profile so that other users can learn more about me.
+12. As a user, I want my default handle to be my first name and last name combined so that it will not be necessary for me to edit.
+13. As a user, I want to be able to search for messages by entering a key string so that I can find my required information quickly. 
+
+Epic3: Members in a channel - Communication
+1. As a member, I want to be able to view the members of the channel so that I know who will be involved in this channel.
+2. As a member, I want to be able to know the owner of the channel so that I can know who is in charge. 
+3. As a member, I want to be able to view the details of the channel so that I can better understand the purpose of the channel.
+4. As a member, I want to be able to invite people to a channel so that I can give that person access to the channel.
+5. As a member, I want to be able to leave a channel so that I can stop receiving information from a channel that I no longer interested in. 
+6. As a member, I want to be able to see the messages that have been sent to the channel from other members so that I can keep myself updated. 
+7. As a member, I want to be able to send messages on the channel so that I can interact with other members. 
+8. As a member, I want to be able to edit messages I sent on the channel so that I can fix any typos or inappropriate expressions.
+9. As a member, I want to be able to pin messages so that important messages and their replies will be gathered on details pane for easy reference.
+10. As a member, I want to be able to unpin messages that were pinned to the channel in order to remove messages that are no longer important from the details pane
+11. As a member, I want to be able to add emoji reactions to any messages being sent to the channel so that I do not need to send follow-up messages.
+12. As a member, I want to be able to remove a reaction that I've added so that I can respond to the message with another emoji reaction.
+13. As a member, I want to be able to delete messages I sent so that I can remove any mistakes in my sentences.
+14. As a member, I want the system to help me send a message at the time I specified so that I don?t have to be online at that time.
+15. As a member, I want to have a 15-mins' standup session within the channel so that we can hold a brief online meeting.
+16. As a member, I want messages sent to the channel in a standup session to be collated and summarized by the system at the end of the session so that we do not have to manually gather information up.
+17. As a member, I want the summarized outcome of a ?standup? being sent to the channel so that we can preclude misunderstandings of the issue.	
+
+Epic4: Owner of a channel 
+1. As an owner, I want to be able to name my channel so that I can give a theme to my channel and let people that have access to it have a general idea towards it.
+2. As an owner, I want to be able to vary the degrees of accessibility of my channel (private or public) so that I can set my group of people in specific. 
+3. As an owner, I want to be able to see the messages that have been sent to my channel from users so that I can interact and communicate with them.
+4. As the owner of a channel, I want to be able to transfer ownership to another person so that I can enable another person to take over my channel. 
+

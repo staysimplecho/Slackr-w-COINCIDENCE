@@ -1,0 +1,608 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">99%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>2679</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>328</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="2967 3007">99%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_admin_userpermission_change_test_py.html">server/admin_userpermission_change_test.py</a></td>
+                <td>101</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 101">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_all_decos_py.html">server/all_decos.py</a></td>
+                <td>124</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>35</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="159 159">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auth_login_test_py.html">server/auth_login_test.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auth_logout_test_py.html">server/auth_logout_test.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auth_passwordreset_request_test_py.html">server/auth_passwordreset_request_test.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auth_passwordreset_reset_test_py.html">server/auth_passwordreset_reset_test.py</a></td>
+                <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 15">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auth_register_test_py.html">server/auth_register_test.py</a></td>
+                <td>77</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 77">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_auths_py.html">server/auths.py</a></td>
+                <td>95</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>35</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="120 130">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_addowner_test_py.html">server/channel_addowner_test.py</a></td>
+                <td>72</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="90 90">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_details_test_py.html">server/channel_details_test.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 53">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_invite_test_py.html">server/channel_invite_test.py</a></td>
+                <td>71</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 77">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_join_test_py.html">server/channel_join_test.py</a></td>
+                <td>46</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="52 52">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_leave_test_py.html">server/channel_leave_test.py</a></td>
+                <td>45</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 49">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_messages_test_py.html">server/channel_messages_test.py</a></td>
+                <td>88</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="98 98">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channel_removeowner_test_py.html">server/channel_removeowner_test.py</a></td>
+                <td>61</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 65">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channels_py.html">server/channels.py</a></td>
+                <td>170</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>58</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="228 228">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channels_create_test_py.html">server/channels_create_test.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 32">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channels_list_test_py.html">server/channels_list_test.py</a></td>
+                <td>39</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="45 45">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_channels_listall_test_py.html">server/channels_listall_test.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 49">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_error_handle_py.html">server/error_handle.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_iter3_py.html">server/iter3.py</a></td>
+                <td>191</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td>46</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="215 237">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_edit_test_py.html">server/message_edit_test.py</a></td>
+                <td>61</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 61">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_pin_test_py.html">server/message_pin_test.py</a></td>
+                <td>55</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 55">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_react_test_py.html">server/message_react_test.py</a></td>
+                <td>63</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="63 63">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_remove_test_py.html">server/message_remove_test.py</a></td>
+                <td>64</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 64">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_send_test_py.html">server/message_send_test.py</a></td>
+                <td>42</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 42">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_sendlater_test_py.html">server/message_sendlater_test.py</a></td>
+                <td>70</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 70">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_unpin_test_py.html">server/message_unpin_test.py</a></td>
+                <td>60</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="60 60">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_message_unreact_test_py.html">server/message_unreact_test.py</a></td>
+                <td>81</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="81 81">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_messages_py.html">server/messages.py</a></td>
+                <td>174</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="232 236">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_new_profile_py.html">server/new_profile.py</a></td>
+                <td>77</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="89 91">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_search_test_py.html">server/search_test.py</a></td>
+                <td>53</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 53">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_standup_py.html">server/standup.py</a></td>
+                <td>70</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="82 84">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_standup_active_test_py.html">server/standup_active_test.py</a></td>
+                <td>29</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 29">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_standup_send_test_py.html">server/standup_send_test.py</a></td>
+                <td>55</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 55">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_standup_start_test_py.html">server/standup_start_test.py</a></td>
+                <td>44</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 44">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_user_profile_setemail_test_py.html">server/user_profile_setemail_test.py</a></td>
+                <td>61</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 61">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_user_profile_sethandle_test_py.html">server/user_profile_sethandle_test.py</a></td>
+                <td>62</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 62">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_user_profile_setname_test_py.html">server/user_profile_setname_test.py</a></td>
+                <td>48</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 48">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_user_profile_test_py.html">server/user_profile_test.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="36 36">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_user_profiles_uploadphoto_test_py.html">server/user_profiles_uploadphoto_test.py</a></td>
+                <td>68</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 68">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="server_users_listall_test_py.html">server/users_listall_test.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 29">100%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.4</a>,
+            created at 2019-11-17 19:02
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
